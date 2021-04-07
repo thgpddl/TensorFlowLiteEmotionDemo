@@ -45,7 +45,7 @@ public class CameraActivity extends AppCompatActivity {
     private Handler mInferHandler;
 
     private ImageReader mImageReader;
-    private boolean isFont = false;
+    private boolean isFont = false;    //前置摄像头 or 后置摄像头
     private Size mPreviewSize;
     private boolean mCapturing;
 
